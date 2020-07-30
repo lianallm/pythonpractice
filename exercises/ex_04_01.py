@@ -3,11 +3,11 @@
 def computepay(hours,rate):
     if fh > 40 :
         reg = hours * rate
-        otp = (fh - 40.0) * (fr * 0.5)
+        otp = (hours - 40.0) * (rate * 0.5)
         pay = reg + otp
     else:
-        pay = fh * fr
-    print("Pay:", xp)
+        pay = hours * rate
+    print("Pay:", pay)
     return pay
 
 
