@@ -1,3 +1,5 @@
+#TRY AND EXCEPT CONDITIONAL STRUCTURE
+
 #defining work hours and rate of pay per hour
 sh = input("Enter Hours: ")
 sr = input("Enter Rate: ")
